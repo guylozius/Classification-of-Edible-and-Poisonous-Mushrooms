@@ -31,5 +31,21 @@ Dataset source: (https://www.kaggle.com/datasets/uciml/mushroom-classification)
 | spore-print-color:       | The color print from spore.               | Black, brown, buff, chocolate, green, orange, purple, white, yellow                  |
 | population:              | How many mushrooms grows.                 | Abundant, clustered, numerous, scattered, several, solitary.                         |
 | habitat:                 | The type places the mushroom grows at.    | Grasses, leaves, meadows, paths, urban, waste, woods                                 |
+### Methods:
+- Clean data
+- Simply exploratory  
+- Visual exploratory 
+- Create models
+- Baseline evaluation 
+- Implement Principal component analysis  to increase speed 
+- Re-evaluation   
+- Tune Models
+- Re-evaluation  
+- Compare models
+- Recommend the best 
+-Justify recommendation 
+#### Results
+![class_odor](class_odor.png)
+![class_odor](spore-print-color.png)
 ## The model Recommendation.
 The model I picked for "production" is  LogisticRegression for classification of poisonous and edible mushroom because it is fastest and with high accuracy, but the dataset is made with synthetic mushroom base on average, which can lead to data leakage causing all models to have high accuracy, so I will not recommend any model for production.
