@@ -48,11 +48,16 @@ The dataset is made of synthetic samples corresponding to 23 species of gilled m
 - Recommend the best 
 -Justify recommendation 
 ## Results
+#### Correlatiship between features.
+![class_odor](corr1.png)
+For the column Class there are some moderate and strong with Odor, Gil-color, Spore-print-color columns.
 #### Which odor tend to be more edible or poisonous?
 ![class_odor](class_odor.png)
 Almond, anise, none odor are likely to be edible.<br/>
 Creosote, fishy, foul, musty, pungent, spicy odors are poisonous.
 #### Which spore print color tend to be more edible or poisonous?
 ![class_odor](spore-print-color.png)
+chocolate and white is most likely to be poisonous.
+Black and Brown are most likely to edible.
 ## The model Recommendation.
-The model I picked for "production" is  LogisticRegression for classification of poisonous and edible mushroom because it is fastest and with high accuracy, but the dataset is made with synthetic mushroom base on average, which can lead to data leakage causing all models to have high accuracy, so I will not recommend any model for production.
+The model I picked for "production" is  LogisticRegression for classification of poisonous and edible mushrooms because it is fastest and with high accuracy, but the dataset is made with synthetic mushroom base on average, so I do not know how it will fare against real mushrooms.
