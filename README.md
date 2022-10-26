@@ -5,7 +5,10 @@
 ### Business problem:
 The goal is to create a model that is efficient at determining if a mushroom is edible or poisonous, and then recommend it for production and the stakeholder. <br/>
 ### Data:
-Dataset source: (https://www.kaggle.com/datasets/uciml/mushroom-classification)
+Dataset source: (https://www.kaggle.com/datasets/uciml/mushroom-classification)<br/>
+Dataset Description:<br/>
+The dataset is made of synthetic samples corresponding to 23 species of gilled mushrooms in the Agaricus and Lepiota Family Mushroom. Each species is either edible or poisonous.<br/>
+
 | Columns                  | Description                               | Values                                                                               |
 |--------------------------|-------------------------------------------|--------------------------------------------------------------------------------------|
 | Classes                  | If the mushrooms are edible or poisonous. |  edible, poisonous                                                                   |
@@ -44,8 +47,12 @@ Dataset source: (https://www.kaggle.com/datasets/uciml/mushroom-classification)
 - Compare models
 - Recommend the best 
 -Justify recommendation 
-#### Results
+## Results
+#### Which odor tend to be more edible or poisonous?
 ![class_odor](class_odor.png)
+Almond, anise, none odor are likely to be edible.<br/>
+Creosote, fishy, foul, musty, pungent, spicy odors are poisonous.
+#### Which spore print color tend to be more edible or poisonous?
 ![class_odor](spore-print-color.png)
 ## The model Recommendation.
 The model I picked for "production" is  LogisticRegression for classification of poisonous and edible mushroom because it is fastest and with high accuracy, but the dataset is made with synthetic mushroom base on average, which can lead to data leakage causing all models to have high accuracy, so I will not recommend any model for production.
