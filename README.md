@@ -57,7 +57,7 @@ Almond, anise, none odor are likely to be edible.<br/>
 Creosote, fishy, foul, musty, pungent, spicy odors are poisonous.
 #### Which spore print color tend to be more edible or poisonous?
 ![class_odor](spore-print-color.png)
-chocolate and white is most likely to be poisonous.
+chocolate and white is most likely to be poisonous.<br/>
 Black and Brown are most likely to edible.
 ## The model Recommendation.
 The model I picked for "production" is  LogisticRegression for classification of poisonous and edible mushrooms because it is fastest and with high accuracy, but the dataset is made with synthetic mushroom base on average, so I do not know how it will fare against real mushrooms.
