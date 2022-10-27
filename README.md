@@ -58,7 +58,7 @@ Buff, yellow, pink, and red have a higher chance of being Poisonous.<br/>
 The model I picked for "production" is a LogisticRegression for classification of poisonous and edible mushrooms <br/>
 and that was hyperparameter tuned and preprocessed with the Principal Component Analysis algorithm to increase performance.
 ## The model Recommendation.
-The model it is fastest and it can determine if a mushroom is edible or poisonous with 100% precision.
-The only problem is that dataset is made with synthetic mushroom base on average, so I do not know how it will fare against real mushrooms.
+The model is the fastest out of other models that were tested and it can also determine if a mushroom is edible or poisonous with 100% precision.<br/>
+The only problem is that the dataset is made with synthetic mushroom base on averages, so I do not know how it will fare against real mushrooms.
 ## Conclusion
-In Conclusion, The goal is to make the optimal model to determine if a mushroom is poisonous  or edible based on a synthetic mushroom dataset. The final model was fastest and had accuracy of hundred percent, but because the dataset is based on a hypothetical  dataset. I can not fully support putting it in production because I don’t know how it will fare with real mushrooms.
+In Conclusion, The goal is to make the most optimal model to determine if a mushroom is poisonous  or edible based on a synthetic mushroom dataset. The final model was fastest and had accuracy of hundred percent, but because the dataset is based on a hypothetical  dataset. I can not fully support putting it in production because I don’t know how it will fare with real mushrooms.
