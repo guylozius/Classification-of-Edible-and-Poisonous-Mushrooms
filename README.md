@@ -48,15 +48,15 @@ The dataset is made of synthetic samples corresponding to 23 species of gilled m
 - Recommend the best 
 -Justify recommendation 
 ## Results
-#### Correlatiship between features.
-![class_odor](corr1.png)
-For the column Class there are some moderate and strong with Odor, Gil-color, Spore-print-color columns.
+
 #### Which odor tend to be more edible or poisonous?
-![class_odor](class_odor.png)
+![class_odor](class_odor (1).png)
 Almond, anise, none odor are likely to be edible.<br/>
 Creosote, fishy, foul, musty, pungent, spicy odors are poisonous.
+
 #### Which spore print color tend to be more edible or poisonous?
-![class_odor](spore-print-color.png)
+![color](color.png)
+
 chocolate and white is most likely to be poisonous.<br/>
 Black and Brown are most likely to edible.
 ## The model Recommendation.
