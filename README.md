@@ -48,16 +48,17 @@ The dataset is made of synthetic samples corresponding to 23 species of gilled m
 - Recommend the best 
 -Justify recommendation 
 ## Results
+### Trends 
+![class_odor](class_odor.png)
+Bad and spicy smelling mushroom tend to be poisonous.
 
-#### Which odor tend to be more edible or poisonous?
-![class_odor](class_odor (1).png)
-Almond, anise, none odor are likely to be edible.<br/>
-Creosote, fishy, foul, musty, pungent, spicy odors are poisonous.
-
-#### Which spore print color tend to be more edible or poisonous?
 ![color](color.png)
-
-chocolate and white is most likely to be poisonous.<br/>
-Black and Brown are most likely to edible.
+Buff, yellow, pink, and red have a higher chance of being Poisonous.<br/>
+## Info on Final Model
+The model I picked for "production" is a LogisticRegression for classification of poisonous and edible mushrooms <br/>
+and that was hyperparameter tuned and preprocessed with the Principal Component Analysis algorithm to increase performance.
 ## The model Recommendation.
-The model I picked for "production" is  LogisticRegression for classification of poisonous and edible mushrooms because it is fastest and with high accuracy, but the dataset is made with synthetic mushroom base on average, so I do not know how it will fare against real mushrooms.
+The model it is fastest and it can determine if a mushroom is edible or poisonous with 100% precision.
+The only problem is that dataset is made with synthetic mushroom base on average, so I do not know how it will fare against real mushrooms.
+## Conclusion
+In Conclusion, The goal is to make the optimal model to determine if a mushroom is poisonous  or edible based on a synthetic mushroom dataset. The final model was fastest and had accuracy of hundred percent, but because the dataset is based on a hypothetical  dataset. I can not fully support putting it in production because I don’t know how it will fare with real mushrooms.
